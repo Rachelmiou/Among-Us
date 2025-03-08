@@ -1,0 +1,27 @@
+General
+-------
+Map: done
+Character: in but could use animation
+Minigames:
+    keypad: done
+    vending machine: done
+
+win condition: done
+win screen: done
+
+Crew
+-------
+win by minigame: done
+vision cone: done
+report dead body: done
+emergency button: done
+
+Imposter
+--------
+win by kill: done
+Kill Crewmember: done
+
+Emergency Meeting
+-----------------
+Kill Crewmember: done
+abstain from vote: done
