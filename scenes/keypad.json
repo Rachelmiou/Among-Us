@@ -1,0 +1,211 @@
+{
+    "entities": {
+        "MiniGame": {
+            "position": [0,0],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/Background.png",
+                    "size": [256, 320]
+                }
+            }
+        },
+        "Display": {
+            "position": [32,32],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/Screen.png",
+                    "size": [192, 64]
+                },
+                "text": {
+                    "text": "1 2 3 4",
+                    "offset": [96,32],
+                    "color": [255, 255, 255]
+                }
+            }
+        },
+        "Button1": {
+            "position": [32,231],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [64, 64]
+                },
+                "text": {
+                    "text": "1",
+                    "offset": [32,32],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 1
+                }
+            }
+        },
+        "Button2": {
+            "position": [96,231],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [64, 64]
+                },
+                "text": {
+                    "text": "2",
+                    "offset": [32,32],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 2
+                }
+            }
+        },
+        "Button3": {
+            "position": [160,231],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [64, 64]
+                },
+                "text": {
+                    "text": "3",
+                    "offset": [32,32],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 3
+                }
+            }
+        },
+        "Button4": {
+            "position": [32,167],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [64, 64]
+                },
+                "text": {
+                    "text": "4",
+                    "offset": [32,32],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 4
+                }
+            }
+        },
+        "Button5": {
+            "position": [96,167],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [64, 64]
+                },
+                "text": {
+                    "text": "5",
+                    "offset": [32,32],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 5
+                }
+            }
+        },
+        "Button6": {
+            "position": [160,167],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [64, 64]
+                },
+                "text": {
+                    "text": "6",
+                    "offset": [32,32],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 6
+                }
+            }
+        },
+        "Button7": {
+            "position": [32,103],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [64, 64]
+                },
+                "text": {
+                    "text": "7",
+                    "offset": [32,32],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 7
+                }
+            }
+        },
+        "Button8": {
+            "position": [96,103],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [64, 64]
+                },
+                "text": {
+                    "text": "8",
+                    "offset": [32,32],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 8
+                }
+            }
+        },
+        "Button9": {
+            "position": [160,103],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [64, 64]
+                },
+                "text": {
+                    "text": "9",
+                    "offset": [32,32],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 9
+                }
+            }
+        },
+        "Keypad": {
+            "position": [0,0],
+            "rotation": 0,
+            "components": {
+                "keypad": {
+                    "display": "Display",
+                    "keys": [
+                        "Button1",
+                        "Button2",
+                        "Button3",
+                        "Button4",
+                        "Button5",
+                        "Button6",
+                        "Button7",
+                        "Button8",
+                        "Button9" 
+                    ]
+                }
+            }
+        }
+    }
+}

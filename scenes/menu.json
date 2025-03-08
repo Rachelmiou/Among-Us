@@ -1,0 +1,65 @@
+{
+    "entities": {
+        "startGameButton": {
+            "position": [300, 400],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/Menu Button 2.png",
+                    "size": [200, 48]
+                },
+                "text": {
+                    "text": "Start Game",
+                    "offset": [100,24],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "trigger": "startGame"
+                }
+            }
+        },
+        "quitGameButton": {
+            "position": [300, 464],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/Menu Button 2.png",
+                    "size": [200, 48]
+                },
+                "text": {
+                    "text": "Quit Game",
+                    "offset": [100,24],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "trigger": "quitGame"
+                }
+            }
+        },
+        "title": {
+            "position": [300, 100],
+            "rotation": 0,
+            "components": {
+                "text": {
+                    "text": "Among Them",
+                    "offset": [100,50],
+                    "color": [255, 128, 128],
+                    "size": 64
+                }
+            }
+        }
+    },
+    "stage": {
+        "backgroundColor": [0, 0, 0]
+    },
+    "events": {
+        "startGame": {
+            "type": "loadScene",
+            "value": "scenes/level.json"
+        },
+        "quitGame": {
+            "type": "quitGame",
+            "value": ""
+        }
+    }
+}

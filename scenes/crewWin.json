@@ -1,0 +1,42 @@
+{
+    "entities": {
+        "startGameButton": {
+            "position": [200, 500],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/Menu Button 1.png",
+                    "size": [400, 48]
+                },
+                "text": {
+                    "text": "Return to Menu",
+                    "offset": [200,24],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "trigger": "gotoMenu"
+                }
+            }
+        },
+        "gameOver": {
+            "position": [400, 400],
+            "rotation": 0,
+            "components": {
+                "text": {
+                    "text": "Crew Wins!",
+                    "offset": [0,0],
+                    "color": [255, 255, 255]
+                }
+            }
+        }
+    },
+    "stage": {
+        "backgroundColor": [0, 0, 0]
+    },
+    "events": {
+        "gotoMenu": {
+            "type": "loadScene",
+            "value": "scenes/menu.json"
+        }
+    }
+}

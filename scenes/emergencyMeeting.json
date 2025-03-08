@@ -1,0 +1,44 @@
+{
+    "entities": {
+        "MiniGame": {
+            "position": [0,0],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/Background.png",
+                    "size": [700, 500]
+                }
+            }
+        },
+        "Cancel": {
+            "position": [400,400],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [256, 64]
+                },
+                "text": {
+                    "text": "Abstain",
+                    "offset": [128,32],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": -1
+                }
+            }
+        },
+        "Meeting": {
+            "position": [0,0],
+            "rotation": 0,
+            "components": {
+                "meeting": {
+                    "playerKeys": [
+                        "Button1"
+                    ],
+                    "abstain": "Cancel"
+                }
+            }
+        }
+    }
+}

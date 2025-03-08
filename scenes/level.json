@@ -1,0 +1,290 @@
+{
+    "entities": {
+        "starfield": {
+            "position": [-307, -307],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/StarField.png",
+                    "size": [1638, 1638]
+                }
+            }
+        },
+        "world": {
+            "position": [0, 0],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/World.png",
+                    "size": [1024, 1024]
+                }
+            }
+        },
+        "topWall": {
+            "position": [0,-27],
+            "rotation": 0,
+            "components": {
+                "collision": {
+                    "shape": "box",
+                    "size": [1024, 32],
+                    "static": true
+                }
+            }
+        },
+        "bottomWall": {
+            "position": [0,1024],
+            "rotation": 0,
+            "components": {
+                "collision": {
+                    "shape": "box",
+                    "size": [1024, 32],
+                    "static": true
+                }
+            }
+        },
+        "leftWall": {
+            "position": [-32, 0],
+            "rotation": 0,
+            "components": {
+                "collision": {
+                    "shape": "box",
+                    "size": [32, 1024],
+                    "static": true
+                }
+            }
+        },
+        "rightWall": {
+            "position": [1024, 0],
+            "rotation": 0,
+            "components": {
+                "collision": {
+                    "shape": "box",
+                    "size": [32, 1024],
+                    "static": true
+                }
+            }
+        },
+        "midVWall": {
+            "position": [510, 510],
+            "rotation": 0,
+            "components": {
+                "collision": {
+                    "shape": "box",
+                    "size": [5, 512],
+                    "static": true
+                }
+            }
+        },
+        "midHWall": {
+            "position": [253, 517],
+            "rotation": 0,
+            "components": {
+                "collision": {
+                    "shape": "box",
+                    "size": [500, 5],
+                    "static": true
+                }
+            }
+        },
+        "kitchenLeft": {
+            "position": [5, 211],
+            "rotation": 0,
+            "components": {
+                "collision": {
+                    "shape": "box",
+                    "size": [388, 5],
+                    "static": true
+                }
+            }
+        },
+        "kitchenRight": {
+            "position": [631, 211],
+            "rotation": 0,
+            "components": {
+                "collision": {
+                    "shape": "box",
+                    "size": [388, 5],
+                    "static": true
+                }
+            }
+        },
+        "keypadMinigame": {
+            "position": [256, 0],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32, 32]
+                },
+                "collision": {
+                    "shape": "box",
+                    "size": [32, 32],
+                    "static": true,
+                    "trigger": "showVendingMachine"
+                }
+            }
+        },
+        "keypadMinigame2": {
+            "position": [512, 0],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32, 32]
+                },
+                "collision": {
+                    "shape": "box",
+                    "size": [32, 32],
+                    "static": true,
+                    "trigger": "showKeypad"
+                }
+            }
+        },
+        "emergencyButton": {
+            "position": [512, 512],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32, 32]
+                },
+                "collision": {
+                    "shape": "box",
+                    "size": [32, 32],
+                    "static": true,
+                    "trigger": "startEmergencyMeeting"
+                }
+            }
+        },
+        "player": {
+            "position": [64, 64],
+            "rotation": 0,
+            "isPlayer": true,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/RedCharacter.png",
+                    "size": [64, 64]
+                },
+                "animation": {
+                    "idle": ["assets/images/RedCharacter.png"],
+                    "walk": [
+                        "assets/images/RedWalk1.png",
+                        "assets/images/RedCharacter.png",
+                        "assets/images/RedWalk2.png",
+                        "assets/images/RedCharacter.png"
+                    ]
+                },
+                "movement": {
+                    "speed": 5
+                },
+                "collision": {
+                    "shape": "box",
+                    "size": [64, 64]
+                }
+            }
+        },
+        "player2": {
+            "position": [128, 128],
+            "rotation": 0,
+            "isPlayer": true,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/OrangeCharacter.png",
+                    "size": [64, 64]
+                },
+                "collision": {
+                    "shape": "box",
+                    "size": [64, 64]
+                }
+            }
+        },
+        "player3": {
+            "position": [512, 128],
+            "rotation": 0,
+            "isPlayer": true,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/YellowCharacter.png",
+                    "size": [64, 64]
+                },
+                "collision": {
+                    "shape": "box",
+                    "size": [64, 64]
+                }
+            }
+        },
+        "player4": {
+            "position": [128, 512],
+            "rotation": 0,
+            "isPlayer": true,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/GreenCharacter.png",
+                    "size": [64, 64]
+                },
+                "collision": {
+                    "shape": "box",
+                    "size": [64, 64]
+                }
+            }
+        },
+        "player5": {
+            "position": [768, 512],
+            "rotation": 0,
+            "isPlayer": true,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/BlueCharacter.png",
+                    "size": [64, 64]
+                },
+                "collision": {
+                    "shape": "box",
+                    "size": [64, 64]
+                }
+            }
+        },
+        "player6": {
+            "position": [128, 768],
+            "rotation": 0,
+            "isPlayer": true,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/VioletCharacter.png",
+                    "size": [64, 64]
+                },
+                "collision": {
+                    "shape": "box",
+                    "size": [64, 64]
+                }
+            }
+        }
+    },
+    "stage": {
+        "backgroundColor": [0, 255, 0],
+        "camera": "player",
+        "showVisonCone": true,
+        "showMinigameCompletion": true
+    },
+    "events": {
+        "showKeypad": {
+            "type": "startMinigame",
+            "value": "scenes/keypad.json"
+        },
+        "startEmergencyMeeting": {
+            "type": "startMinigame",
+            "value": "scenes/emergencyMeeting.json"
+        },
+        "showVendingMachine": {
+            "type": "startMinigame",
+            "value": "scenes/vendingMachine.json"
+        },
+        "showGarbageDump": {
+            "type": "startMinigame",
+            "value": "scenes/garbageDump.json"
+        },
+        "killPlayer": {
+            "type": "killPlayer",
+            "value": ""
+        }
+    }
+}

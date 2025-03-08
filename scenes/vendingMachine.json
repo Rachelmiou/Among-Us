@@ -1,0 +1,455 @@
+{
+    "entities": {
+        "MiniGame": {
+            "position": [0,0],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/Background.png",
+                    "size": [400, 600]
+                }
+            }
+        },
+        "Item": {
+            "position": [295,100],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/Screen.png",
+                    "size": [96, 96]
+                }
+            }
+        },
+        "Tray": {
+            "position": [10,500],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/Screen.png",
+                    "size": [280, 96]
+                }
+            }
+        },
+        "Background": {
+            "position": [10,10],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/Screen.png",
+                    "size": [280, 480]
+                }
+            }
+        },
+        "Display": {
+            "position": [295,200],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/Screen.png",
+                    "size": [96, 32]
+                },
+                "text": {
+                    "text": "--",
+                    "offset": [48,16],
+                    "color": [255, 255, 255]
+                }
+            }
+        },
+        "Button1": {
+            "position": [295,232],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32,32]
+                },
+                "text": {
+                    "text": "1",
+                    "offset": [16,16],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 1
+                }
+            }
+        },
+        "Button2": {
+            "position": [327,232],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32,32]
+                },
+                "text": {
+                    "text": "2",
+                    "offset": [16,16],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 2
+                }
+            }
+        },
+        "Button3": {
+            "position": [359,232],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32,32]
+                },
+                "text": {
+                    "text": "3",
+                    "offset": [16,16],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 3
+                }
+            }
+        },
+        "Button4": {
+            "position": [295,264],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32,32]
+                },
+                "text": {
+                    "text": "4",
+                    "offset": [16,16],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 4
+                }
+            }
+        },
+        "Button5": {
+            "position": [327,264],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32,32]
+                },
+                "text": {
+                    "text": "5",
+                    "offset": [16,16],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 5
+                }
+            }
+        },
+        "Button6": {
+            "position": [359,264],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32,32]
+                },
+                "text": {
+                    "text": "6",
+                    "offset": [16,16],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 6
+                }
+            }
+        },
+        "Button7": {
+            "position": [295,296],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32,32]
+                },
+                "text": {
+                    "text": "7",
+                    "offset": [16,16],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 7
+                }
+            }
+        },
+        "Button8": {
+            "position": [327,296],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32,32]
+                },
+                "text": {
+                    "text": "8",
+                    "offset": [16,16],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 8
+                }
+            }
+        },
+        "Button9": {
+            "position": [359,296],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32,32]
+                },
+                "text": {
+                    "text": "9",
+                    "offset": [16,16],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": 9
+                }
+            }
+        },
+        "ButtonA": {
+            "position": [295,328],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32,32]
+                },
+                "text": {
+                    "text": "A",
+                    "offset": [16,16],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": "A"
+                }
+            }
+        },
+        "ButtonB": {
+            "position": [327,328],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32,32]
+                },
+                "text": {
+                    "text": "B",
+                    "offset": [16,16],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": "B"
+                }
+            }
+        },
+        "ButtonC": {
+            "position": [359,328],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/button.png",
+                    "size": [32,32]
+                },
+                "text": {
+                    "text": "C",
+                    "offset": [16,16],
+                    "color": [255, 255, 255]
+                },
+                "button": {
+                    "value": "C"
+                }
+            }
+        },
+        "Item1": {
+            "position": [15,60],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/Cola.png",
+                    "size": [64,64]
+                },
+                "text": {
+                    "text": "A1",
+                    "offset": [64,64],
+                    "color": [255, 255, 255]
+                }
+            }
+        },
+        "Item2": {
+            "position": [111,60],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/sprite.jpg",
+                    "size": [64,64]
+                },
+                "text": {
+                    "text": "A2",
+                    "offset": [64,64],
+                    "color": [255, 255, 255]
+                }
+            }
+        },
+        "Item3": {
+            "position": [195,60],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/orangina.jpg",
+                    "size": [64,64]
+                },
+                "text": {
+                    "text": "A3",
+                    "offset": [64,64],
+                    "color": [255, 255, 255]
+                }
+            }
+        },
+        "Item4": {
+            "position": [15,150],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/redbull.jpg",
+                    "size": [64,64]
+                },
+                "text": {
+                    "text": "B1",
+                    "offset": [64,64],
+                    "color": [255, 255, 255]
+                }
+            }
+        },
+        "Item5": {
+            "position": [111,150],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/gatorade.jpg",
+                    "size": [64,64]
+                },
+                "text": {
+                    "text": "B2",
+                    "offset": [64,64],
+                    "color": [255, 255, 255]
+                }
+            }
+        },
+        "Item6": {
+            "position": [195,150],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/diet-cola.jpg",
+                    "size": [64,64]
+                },
+                "text": {
+                    "text": "B3",
+                    "offset": [64,64],
+                    "color": [255, 255, 255]
+                }
+            }
+        },
+        "Item7": {
+            "position": [15,240],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/pepsi.jpg",
+                    "size": [64,64]
+                },
+                "text": {
+                    "text": "C1",
+                    "offset": [64,64],
+                    "color": [255, 255, 255]
+                }
+            }
+        },
+        "Item8": {
+            "position": [111,240],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/milk.jpg",
+                    "size": [64,64]
+                },
+                "text": {
+                    "text": "C2",
+                    "offset": [64,64],
+                    "color": [255, 255, 255]
+                }
+            }
+        },
+        "Item9": {
+            "position": [195,240],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/icetea.jpg",
+                    "size": [64,64]
+                },
+                "text": {
+                    "text": "C3",
+                    "offset": [64,64],
+                    "color": [255, 255, 255]
+                }
+            }
+        },
+        "DesiredItem": {
+            "position": [305,110],
+            "rotation": 0,
+            "components": {
+                "sprite": {
+                    "image": "assets/images/orangina.jpg",
+                    "size": [76,76]
+                }
+            }
+        },
+        "VendingMachine": {
+            "position": [0,0],
+            "rotation": 0,
+            "components": {
+                "vending": {
+                    "display": "Display",
+                    "displayItem": "DesiredItem",
+                    "items": [
+                        "Item1",
+                        "Item2",
+                        "Item3",
+                        "Item4",
+                        "Item5",
+                        "Item6",
+                        "Item7",
+                        "Item8",
+                        "Item9"
+                    ],
+                    "keys": [
+                        "Button1",
+                        "Button2",
+                        "Button3",
+                        "Button4",
+                        "Button5",
+                        "Button6",
+                        "Button7",
+                        "Button8",
+                        "Button9", 
+                        "ButtonA",
+                        "ButtonB",
+                        "ButtonC" 
+                    ]
+                }
+            }
+        }
+    }
+}
